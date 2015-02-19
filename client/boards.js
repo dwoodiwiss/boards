@@ -18,7 +18,24 @@ if (Meteor.isClient) {
         {
           title: "Another Board Title",
           description: "This is where the content for the board will go, it might even be quite long content... WHO KNOWS!"
-        }
+        },
+        {
+          title: "Board Title",
+          description: "This is where the content for the board will go."
+        },
+        {
+          title: "Board Title",
+          description: "This is where the content for the board will go."
+        },
+        {
+          title: "Board Title",
+          description: "This is where the content for the board will go."
+        },
+        {
+          title: "Board Title",
+          description: "This is where the content for the board will go."
+        },
+
       ]
       return boards;
     }
