@@ -3,9 +3,21 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
 
-  {{> hello}}
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/register" title="Register">Register</a></li>
+        <li><a href="/login" title="Login">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <a href="#" title="boards"><h1>boards</h1></a>
+
+    {{> hello}}
+  </main>
 </body>
 
 <template name="hello">

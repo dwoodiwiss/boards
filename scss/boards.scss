@@ -1,0 +1,31 @@
+/* CSS declarations go here */
+
+@import "./partials/colors.scss";
+@import "./partials/typography.scss";
+
+
+body {
+  color: $black;
+  font-family: $font-normal;
+}
+
+a {
+  text-decoration: none;
+  font-family: $font-bold;
+}
+
+header {
+  nav {
+    ul {
+      list-style: none;
+      padding-left: 0;
+      li {
+        display: inline-block;
+        padding-right: 20px;
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
