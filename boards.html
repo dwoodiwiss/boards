@@ -26,12 +26,10 @@
 
 <template name="board">
   {{#each boards}}
-  <h4>
-    {{ title }}
-  </h4>
-  <p>
-    {{ description }}
-  </p>
+    <section class="board">
+      <h4>{{ title }}</h4>
+      <p>{{ description }}</p>
+    </section>
   {{/each}}
 </template>
 

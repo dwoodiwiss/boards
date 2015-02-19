@@ -27,3 +27,13 @@ header {
     }
   }
 }
+
+.board {
+  width: 20%;
+  display: inline-block;
+  background-color: $faint-gray;
+  border: 1px solid $light-gray;
+
+  padding: 15px;
+
+}
