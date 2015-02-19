@@ -19,8 +19,21 @@
     </section>
 
     {{> hello}}
+    {{> board}}
+
   </main>
 </body>
+
+<template name="board">
+  {{#each boards}}
+  <h4>
+    {{ title }}
+  </h4>
+  <p>
+    {{ description }}
+  </p>
+  {{/each}}
+</template>
 
 <template name="hello">
   <button>Click Me</button>
