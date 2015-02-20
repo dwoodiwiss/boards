@@ -22,7 +22,8 @@ header {
   nav {
     border-bottom: 1px solid $primary-color;
     background-color: $primary-color;
-    padding: 15px 20px;
+    padding: 5px 20px;
+    margin-bottom: 15px;
     ul {
       list-style: none;
       padding-left: 0;
@@ -32,14 +33,16 @@ header {
         a {
           color: $white;
           text-decoration: none;
+          &:hover {
+            color: $light-gray;
+          }
+          h1 {
+            margin: 0;
+          }
         }
       }
     }
   }
-}
-
-main {
-  padding: 15px;
 }
 
 .board {
@@ -48,6 +51,7 @@ main {
   background-color: $faint-gray;
   border: 1px solid $light-gray;
   padding: 15px;
+  margin: 15px;
 }
 
 button {
