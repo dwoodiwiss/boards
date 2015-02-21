@@ -48,10 +48,12 @@ header {
 .board {
   width: 20%;
   display: inline-block;
-  background-color: $faint-gray;
-  border: 1px solid $light-gray;
-  padding: 15px;
+  border: 1px solid $primary-color;
+  padding: 5px 15px;
   margin: 15px;
+  h4 {
+    color: $primary-color;
+  }
 }
 
 button {
