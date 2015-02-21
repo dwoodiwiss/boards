@@ -1,31 +1,3 @@
 <head>
   <title>Boards</title>
 </head>
-
-<body>
-
-  <header>
-    <nav role="navigation">
-      <ul>
-        <li><a href="#" title="boards"><h1>Boards</h1></a></li>
-        <li><a href="/register" title="Register">Register</a></li>
-        <li><a href="/login" title="Login">Login</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main role="main">
-
-    {{> board }}
-
-  </main>
-</body>
-
-<template name="board">
-  {{#each boards}}
-    <section class="board">
-      <h4>{{ title }}</h4>
-      <p>{{ description }}</p>
-    </section>
-  {{/each}}
-</template>
