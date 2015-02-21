@@ -9,3 +9,4 @@ insecure
 mrt:normalize.css
 stevezhu:sass
 iron:router
+sacha:spin
