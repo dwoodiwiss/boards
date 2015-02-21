@@ -10,34 +10,7 @@ if (Meteor.isClient) {
 
   Template.board.helpers({
     boards: function() {
-      var boards = [
-        {
-          title: "Board Title",
-          description: "This is where the content for the board will go."
-        },
-        {
-          title: "Another Board Title",
-          description: "This is where the content for the board will go, it might even be quite long content... WHO KNOWS!"
-        },
-        {
-          title: "Board Title",
-          description: "This is where the content for the board will go."
-        },
-        {
-          title: "Board Title",
-          description: "This is where the content for the board will go."
-        },
-        {
-          title: "Board Title",
-          description: "This is where the content for the board will go."
-        },
-        {
-          title: "Board Title",
-          description: "This is where the content for the board will go."
-        },
-
-      ]
-      return boards;
+      return Boards.find();
     }
   });
 
