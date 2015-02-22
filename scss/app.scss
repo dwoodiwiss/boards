@@ -1,5 +1,6 @@
 /* normalize.css has been added as a package */
 @import "./partials/colors.scss";
+@import "./partials/mixins.scss";
 @import "./partials/typography.scss";
 
 body {
@@ -27,6 +28,11 @@ main {
 }
 
 input[type='text'], input[type='password'] {
+  @include placeholder-text {
+    color: $mid-gray;
+  }
+
+  color: $primary-color;
   border: 1px solid $primary-color;
   padding: 8px;
   margin: 10px 0 20px 0;
