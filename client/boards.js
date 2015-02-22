@@ -2,7 +2,7 @@ if (Meteor.isClient) {
 
   Meteor.subscribe('boards');
 
-  Template.boardItem.helpers({
+  Template.boards.helpers({
     boards: function() {
       return Boards.find();
     }
