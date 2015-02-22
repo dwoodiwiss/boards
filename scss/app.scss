@@ -54,6 +54,7 @@ header {
 }
 
 i {
+  color: $light-gray;
   &:hover {
     color: $secondary-color;
     cursor: pointer;
@@ -65,7 +66,7 @@ i {
   width: 20%;
   display: inline-block;
   border: 1px solid $primary-color;
-  padding: 5px 15px;
+  padding: 0 15px;
   margin-right: 5px;
   vertical-align: top;
   header {
@@ -74,12 +75,12 @@ i {
     }
     h4 {
       color: $primary-color;
+      text-transform: capitalize;
     }
   }
-  article {
-    border-bottom: 1px dashed $light-gray;
-  }
   footer {
+    // display: none;
+    border-top: 1px dashed $light-gray;
     padding: 10px 0;
     i {
       padding: 5px;
