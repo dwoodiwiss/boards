@@ -1,6 +1,6 @@
 // Colors
 $primary-color: #503C53;
-$secondary-color: #262436;
+$secondary-color: lighten( $primary-color, 15% );
 
 $white: #ffffff;
 

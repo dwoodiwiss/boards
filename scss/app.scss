@@ -53,6 +53,14 @@ header {
   }
 }
 
+i {
+  &:hover {
+    color: $secondary-color;
+    cursor: pointer;
+    cursor: hand;
+  }
+}
+
 .board {
   width: 20%;
   display: inline-block;
@@ -60,8 +68,25 @@ header {
   padding: 5px 15px;
   margin-right: 5px;
   vertical-align: top;
-  h4 {
-    color: $primary-color;
+  header {
+    i {
+      float: right;
+    }
+    h4 {
+      color: $primary-color;
+    }
+  }
+  article {
+    border-bottom: 1px dashed $light-gray;
+  }
+  footer {
+    padding: 10px 0;
+    i {
+      padding: 5px;
+      &.fa-trash-o {
+        float: right;
+      }
+    }
   }
 }
 

@@ -1,8 +1,17 @@
 <template name="boards">
   {{#each boards}}
     <section class="board">
-      <h4>{{ title }}</h4>
-      <p>{{ description }}</p>
+      <header>
+        <!-- <i class="fa fa-times"></i> -->
+        <h4>{{ title }}</h4>
+      </header>
+      <article>
+        <p>{{ description }}</p>
+      </article>
+      <footer>
+        <i class="fa fa-pencil-square-o"></i>
+        <i class="fa fa-trash-o"></i>
+      </footer>
     </section>
   {{/each}}
 </template>
